@@ -452,5 +452,5 @@ app.post('/edit-blog/:id', upload.single('inputImage'), function(req, res){
 
 
 app.listen(process.env.PORT || 4000, function(){
-    console.log(`Server Starting on PORT ${PORT}`,);
+    console.log(`Server Starting on PORT 4000`,);
 })
