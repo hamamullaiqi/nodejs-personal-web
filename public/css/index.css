@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    background-color: whitesmoke;
+}
+
+
+nav {
+    
+    align-items: center;
+    background-color: white;
+    height: 9vh;
+    
+}
+.navbar-collapse {
+    z-index: 9999;  
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+    color: orangered;
+}
+h5 {
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    color: orangered;
+}
+p{
+    font-size: 1.2em;
+    color: grey;
+}
+.section {
+    padding-top: 16px;
+    height: 91vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.skill {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.btn-orange-red {
+    color: white;
+    background-color: orangered;
+}
+.card-profil {
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.card {
+    box-shadow: 0 0 3px grey;
+    border-radius: 10px;
+}
+.card-profil img {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.bg-orange-red {
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.bg-grey{
+    background-color: whitesmoke ;
+}
+
+.card-skill img {
+    width: 50px;
+    height: 50px;
+}
+
+.social-media img {
+    height: 40px;
+    padding-right: 20px ;
+}
+
+.content-profil {
+    padding-top: 20px;
+}
+
+.nav-item {
+    font-size: 16px;
+}
+
+.collapse {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.bg-orange-red {
+    background-color: orangered;
+    color: whitesmoke;
+}
+.text-orange-red {
+    color: orangered !important;
+    
+}
