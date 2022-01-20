@@ -10,7 +10,7 @@ const { log } = require('console')
 
 
 const app = express()
-// const PORT = 4000
+const PORT = process.env.PORT || 4000
 
 //set hbs view engine
 app.set('view engine', 'hbs')
@@ -451,6 +451,6 @@ app.post('/edit-blog/:id', upload.single('inputImage'), function(req, res){
 })
 
 
-app.listen(process.env.PORT || 4000, function(){
-    console.log(`Server Starting on PORT 4000`,);
+app.listen(PORT, function(){
+    console.log(`Server Starting on PORT ${PORT}`,);
 })
